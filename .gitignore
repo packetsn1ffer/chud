@@ -1,0 +1,59 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+*.venv
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
+config.ini
+secrets.json
+*.key
+*.pem
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Chud Stuff
+chud_*
+requirements_*
+README_*
+*.json
+*.html
